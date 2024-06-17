@@ -1,0 +1,12 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    <h1>{{ title |safe }}</h1>
+    <h2>{{ content |safe }}</h2>
+    <button type="Submit"> Edit entry
+    </button>
+{% endblock %}
